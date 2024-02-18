@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#e5e7eb ;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Content outside of navbar, pushes content out of navbar when nav is open and move it in when nav is closed*/
+.page {
+    transition: margin-left 0.3s;
+    margin-left: 240px;
+    height: 250vh;
+    overflow: hidden;
+    background-color:#e5e7eb ;
+}
+
+/* Navigation Bar */
+/* Left navigation bar, sticky, dark blue, responsive  */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100%;
+    background-color: #111827;
+    padding: 5px 0;
+    overflow-y: auto;
+    /* Transition in from the left */
+    animation: fadeInLeft 0.5s;
+}
+
+/* Logo Stlying */
+.nav_logo {
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+
+
+.nav_logo_content {
+    display: block;
+    color: #f4f4f4;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin-left: 10px;
+
+}
+.nav_logo i {
+    color: #be123c;
+    font-size: 26px;
+    margin-right: 2.5px;
+
+}
+
+/* Navigation Links */
+.nav_links {
+    list-style: none;
+    padding-left: 12px;
+    padding-right: 24px;
+    margin: 0;
+       
+}
+
+.nav_item {
+
+    text-align: start;
+    color: #f4f4f4;
+    margin-bottom: 16px;
+    transition: 0.3s;
+}
+
+@keyframes downFadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.nav_item hr {
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #030712;
+    margin-bottom: 2.5px;
+    margin-top: 30px;
+    transition: color 0.5s ease;
+    
+
+}
+
+.nav_item .hr__text {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #6b7280;
+
+}
+
+
+.nav_item a {
+    display: flex;
+    background-color: #030712;
+    color: #f4f4f4;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 18px 5px;
+    opacity: 0;
+    animation: downFadeIn 0.5s ease forwards;
+    transition: background-color 0.3s ease;
+}
+
+.nav_item:nth-child(1) a {
+    animation-delay: 0s;
+}
+
+.nav_item:nth-child(3) a {
+    animation-delay: 0.1s; /* Starts 0.2 seconds after the first */
+}
+
+.nav_item:nth-child(4) a {
+    animation-delay: 0.2s; /* Starts 0.4 seconds after the first */
+}
+
+.nav_item:nth-child(5) a {
+    animation-delay: 0.3s; /* Starts 0.6 seconds after the first */
+}
+
+.nav_item:nth-child(7) a {
+    animation-delay: 0.4s; /* Starts 0.8 seconds after the first */
+}
+
+.nav_item:nth-child(8) a {
+    animation-delay: 0.5s; /* Starts 1 second after the first */
+}
+
+.nav_item a svg {
+    margin: 0 10px;
+    height: 16px;
+
+}
+
+.nav_item a.active {
+    background-color: #be123c;
+}
+
+
+.nav_item a:hover {
+    color: #f4f4f4;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 18px 5px;
+    background-color: #be123c;
+
+}
+
+.nav_item a span {
+    margin-top: 2px;
+}

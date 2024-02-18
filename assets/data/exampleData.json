@@ -1,0 +1,556 @@
+{
+    "TotalIncomeCategories": [
+        {
+            "id": 1,
+            "name": "Salary"
+        },
+        {
+            "id": 2,
+            "name": "Dividends"
+        },
+        {
+            "id": 3,
+            "name": "Real Estate"
+        },
+        {
+            "id": 4,
+            "name": "Website"
+        }
+    ],
+    "EquityAndAssetsCategories": [
+        {
+            "id": 1,
+            "name": "Stocks",
+            "hasGoal": true,
+            "goal": 10000
+        },
+        {
+            "id": 2,
+            "name": "Bonds",
+            "hasGoal": true,
+            "goal": 10000
+        },
+        {
+            "id": 3,
+            "name": "Real Estate",
+            "hasGoal": true,
+            "goal": 10000
+        },
+        {
+            "id": 4,
+            "name": "Commodities",
+            "hasGoal": true,
+            "goal": 10000
+        }
+    ],
+    "LiabilitiesAndExpsenseCategories": [
+        {
+            "id": 1,
+            "name": "Bills",
+            "hasBudget": true,
+            "budget": 1000
+        },
+        {
+            "id": 2,
+            "name": "Groceries",
+            "hasBudget": true,
+            "budget": 1000
+        },
+        {
+            "id": 3,
+            "name": "Entertainment",
+            "hasBudget": true,
+            "budget": 1000
+        },
+        {
+            "id": 4,
+            "name": "Transportation",
+            "hasBudget": true,
+            "budget": 1000
+        },
+        {
+            "id": 5,
+            "name": "Health",
+            "hasBudget": true,
+            "budget": 1000
+        },
+        {
+            "id": 6,
+            "name": "Other",
+            "hasBudget": false,
+            "budget": null
+        }
+    ],
+    "TotalIncomes": [
+        {
+            "name": "Monthly Salary",
+            "category": 1,
+            "entries": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                },
+                {
+                    "date": "2021-02-01",
+                    "value": 2000
+                },
+                {
+                    "date": "2021-03-01",
+                    "value": 3000
+                },
+                {
+                    "date": "2021-04-01",
+                    "value": 4000
+                },
+                {
+                    "date": "2021-05-01",
+                    "value": 5000
+                },
+                {
+                    "date": "2021-06-01",
+                    "value": 6000
+                },
+                {
+                    "date": "2021-07-01",
+                    "value": 7000
+                },
+                {
+                    "date": "2021-08-01",
+                    "value": 8000
+                },
+                {
+                    "date": "2021-09-01",
+                    "value": 9000
+                },
+                {
+                    "date": "2021-10-01",
+                    "value": 10000
+                },
+                {
+                    "date": "2021-11-01",
+                    "value": 11000
+                },
+                {
+                    "date": "2021-12-01",
+                    "value": 12000
+                }
+            ]
+        },
+        {
+            "name": "Real Estate",
+            "category": 3,
+            "entries": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                },
+                {
+                    "date": "2021-02-01",
+                    "value": 2000
+                },
+                {
+                    "date": "2021-03-01",
+                    "value": 3000
+                },
+                {
+                    "date": "2021-04-01",
+                    "value": 4000
+                },
+                {
+                    "date": "2021-05-01",
+                    "value": 5000
+                },
+                {
+                    "date": "2021-06-01",
+                    "value": 6000
+                },
+                {
+                    "date": "2021-07-01",
+                    "value": 7000
+                },
+                {
+                    "date": "2021-08-01",
+                    "value": 8000
+                },
+                {
+                    "date": "2021-09-01",
+                    "value": 9000
+                },
+                {
+                    "date": "2021-10-01",
+                    "value": 10000
+                },
+                {
+                    "date": "2021-11-01",
+                    "value": 11000
+                },
+                {
+                    "date": "2021-12-01",
+                    "value": 12000
+                }
+            ]
+        },
+        {
+            "name": "Website",
+            "category": 4,
+            "entries": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                },
+                {
+                    "date": "2021-02-01",
+                    "value": 2000
+                },
+                {
+                    "date": "2021-03-01",
+                    "value": 3000
+                },
+                {
+                    "date": "2021-04-01",
+                    "value": 4000
+                },
+                {
+                    "date": "2021-05-01",
+                    "value": 5000
+                },
+                {
+                    "date": "2021-06-01",
+                    "value": 6000
+                },
+                {
+                    "date": "2021-07-01",
+                    "value": 7000
+                },
+                {
+                    "date": "2021-08-01",
+                    "value": 8000
+                },
+                {
+                    "date": "2021-09-01",
+                    "value": 9000
+                },
+                {
+                    "date": "2021-10-01",
+                    "value": 10000
+                },
+                {
+                    "date": "2021-11-01",
+                    "value": 11000
+                },
+                {
+                    "date": "2021-12-01",
+                    "value": 12000
+                }
+            ]
+        }
+    ],
+    "Assets": [
+        {
+            "name": "Stock Portfolio",
+            "category": 2,
+            "values": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                },
+                {
+                    "date": "2021-02-01",
+                    "value": 2000
+                },
+                {
+                    "date": "2021-03-01",
+                    "value": 3000
+                },
+                {
+                    "date": "2021-04-01",
+                    "value": 4000
+                },
+                {
+                    "date": "2021-05-01",
+                    "value": 5000
+                },
+                {
+                    "date": "2021-06-01",
+                    "value": 6000
+                },
+                {
+                    "date": "2021-07-01",
+                    "value": 7000
+                },
+                {
+                    "date": "2021-08-01",
+                    "value": 8000
+                },
+                {
+                    "date": "2021-09-01",
+                    "value": 9000
+                },
+                {
+                    "date": "2021-10-01",
+                    "value": 10000
+                },
+                {
+                    "date": "2021-11-01",
+                    "value": 11000
+                },
+                {
+                    "date": "2021-12-01",
+                    "value": 12000
+                }
+            ]
+        }
+    ],
+    "bankAccounts": [
+        {
+            "id": 1,
+            "name": "Example Bank Account",
+            "type": "Checking",
+            "balance": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Example Bank Account",
+            "type": "Savings",
+            "balance": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Example Bank Account",
+            "type": "Investment",
+            "balance": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Example Bank Account",
+            "type": "Retirement",
+            "balance": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Example Bank Account",
+            "type": "Other",
+            "balance": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                }
+            ]
+        }
+    ],
+    "Expenses": [
+        {
+            "id": 1,
+            "name": "Example Expense",
+            "category": "ExpenseCategory ID",
+            "isRecurring": true,
+            "payedFrom": "Account ID",
+            "entries": [
+                {
+                    "date": "2021-01-01",
+                    "value": 100
+                },
+                {
+                    "date": "2021-02-01",
+                    "value": 200
+                },
+                {
+                    "date": "2021-03-01",
+                    "value": 300
+                },
+                {
+                    "date": "2021-04-01",
+                    "value": 400
+                },
+                {
+                    "date": "2021-05-01",
+                    "value": 500
+                },
+                {
+                    "date": "2021-06-01",
+                    "value": 600
+                },
+                {
+                    "date": "2021-07-01",
+                    "value": 700
+                },
+                {
+                    "date": "2021-08-01",
+                    "value": 800
+                },
+                {
+                    "date": "2021-09-01",
+                    "value": 900
+                },
+                {
+                    "date": "2021-10-01",
+                    "value": 1000
+                },
+                {
+                    "date": "2021-11-01",
+                    "value": 1100
+                },
+                {
+                    "date": "2021-12-01",
+                    "value": 1200
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Example Expense",
+            "category": "ExpenseCategory ID",
+            "isRecurring": true,
+            "payedFrom": "Account ID",
+            "entries": [
+                {
+                    "date": "2021-01-01",
+                    "value": 100
+                },
+                {
+                    "date": "2021-02-01",
+                    "value": 200
+                },
+                {
+                    "date": "2021-03-01",
+                    "value": 300
+                },
+                {
+                    "date": "2021-04-01",
+                    "value": 400
+                },
+                {
+                    "date": "2021-05-01",
+                    "value": 500
+                },
+                {
+                    "date": "2021-06-01",
+                    "value": 600
+                },
+                {
+                    "date": "2021-07-01",
+                    "value": 700
+                },
+                {
+                    "date": "2021-08-01",
+                    "value": 800
+                },
+                {
+                    "date": "2021-09-01",
+                    "value": 900
+                },
+                {
+                    "date": "2021-10-01",
+                    "value": 1000
+                },
+                {
+                    "date": "2021-11-01",
+                    "value": 1100
+                },
+                {
+                    "date": "2021-12-01",
+                    "value": 1200
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Example Expense",
+            "category": "ExpenseCategory ID",
+            "isRecurring": false,
+            "payedFrom": "Account ID",
+            "entries": [
+                {
+                    "date": "2021-01-01",
+                    "value": 100
+                }
+            ]
+        }
+             
+    ],
+    "Liabilities": [
+        {
+            "id": 1,
+            "name": "Example Debt",
+            "description": "Example Description",
+            "remainingDebt": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                },
+                {
+                    "date": "2021-02-01",
+                    "value": 2000
+                },
+                {
+                    "date": "2021-03-01",
+                    "value": 3000
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Example Debt",
+            "description": "Example Description",
+            "remainingDebt": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Example Debt",
+            "description": "Example Description",
+            "remainingDebt": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Example Debt",
+            "description": "Example Description",
+            "remainingDebt": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Example Debt",
+            "description": "Example Description",
+            "remainingDebt": [
+                {
+                    "date": "2021-01-01",
+                    "value": 1000
+                }
+            ]
+        }
+    ]
+}
