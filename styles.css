@@ -188,3 +188,125 @@ nav {
 .nav_item a span {
     margin-top: 2px;
 }
+
+
+/* Page Styling Assets */
+.page-heading-container {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+
+}
+
+.page-heading-container h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111827;
+}
+
+
+.page_l_container {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+
+/* Income Overview Styling */
+.income-overview-container {
+    
+}
+
+.income-overview-container h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+.income-overview-container .income-overview {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+
+.income-overview-container .income-overview .income-overview-item {
+    width: 100%;
+    padding-top: 60px;
+}
+
+
+.income-overview-container .income-overview .income-overview-graph-item {
+    width: 100%;
+}
+
+.income-overview-container .income-overview div h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4b5563;
+    margin-bottom: 10px;
+}
+
+.income-overview-container .income-overview div p {
+    font-size: 32px;
+    font-weight: 600;
+    color: #4b5563;
+    margin-bottom: 10px;
+
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    .income-overview-container .income-overview {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    
+    
+    
+    .income-overview-container .income-overview .income-overview-item {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 0fr 1fr;
+        gap: 2rem;
+    }
+    
+    
+    .income-overview-container .income-overview .income-overview-graph-item {
+        width: 100%;
+    }
+    
+    .income-overview-container .income-overview div h3 {
+        font-size: 16px;
+        font-weight: 500;
+        color: #4b5563;
+        margin-bottom: 10px;
+    }
+    
+    .income-overview-container .income-overview div p {
+        font-size: 32px;
+        font-weight: 600;
+        color: #4b5563;
+        margin-bottom: 10px;
+    
+    }
+}
+
+
+

@@ -1,49 +1,23 @@
 {
-    "TotalIncomeCategories": [
+    "incomeCategories": [
         {
             "id": 1,
-            "name": "Salary"
+            "name": "Current Account"
         },
         {
             "id": 2,
-            "name": "Dividends"
+            "name": "Savings Account"
         },
         {
             "id": 3,
-            "name": "Real Estate"
+            "name": "Investments"
         },
         {
             "id": 4,
             "name": "Website"
         }
     ],
-    "EquityAndAssetsCategories": [
-        {
-            "id": 1,
-            "name": "Stocks",
-            "hasGoal": true,
-            "goal": 10000
-        },
-        {
-            "id": 2,
-            "name": "Bonds",
-            "hasGoal": true,
-            "goal": 10000
-        },
-        {
-            "id": 3,
-            "name": "Real Estate",
-            "hasGoal": true,
-            "goal": 10000
-        },
-        {
-            "id": 4,
-            "name": "Commodities",
-            "hasGoal": true,
-            "goal": 10000
-        }
-    ],
-    "LiabilitiesAndExpsenseCategories": [
+    "ExpsenseCategories": [
         {
             "id": 1,
             "name": "Bills",
@@ -81,283 +55,144 @@
             "budget": null
         }
     ],
-    "TotalIncomes": [
+    "Incomes": [
         {
             "name": "Monthly Salary",
             "category": 1,
-            "entries": [
+            "amounts": [
                 {
-                    "date": "2021-01-01",
+                    "date": "2023-01-01",
                     "value": 1000
                 },
                 {
-                    "date": "2021-02-01",
-                    "value": 2000
+                    "date": "2023-02-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-03-01",
-                    "value": 3000
+                    "date": "2023-03-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-04-01",
-                    "value": 4000
+                    "date": "2023-04-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-05-01",
-                    "value": 5000
+                    "date": "2023-05-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-06-01",
-                    "value": 6000
+                    "date": "2023-06-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-07-01",
-                    "value": 7000
+                    "date": "2023-07-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-08-01",
-                    "value": 8000
+                    "date": "2023-08-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-09-01",
-                    "value": 9000
+                    "date": "2023-09-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-10-01",
-                    "value": 10000
+                    "date": "2023-10-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-11-01",
-                    "value": 11000
+                    "date": "2023-11-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-12-01",
-                    "value": 12000
+                    "date": "2023-12-01",
+                    "value": 1000
+
+                },
+                {
+                    "date":"2024-01-01",
+                    "value": 1000
+                },
+                {
+                    "date":"2024-02-01",
+                    "value": 1000
                 }
+
+
             ]
         },
         {
             "name": "Real Estate",
             "category": 3,
-            "entries": [
+            "amounts": [
                 {
-                    "date": "2021-01-01",
+                    "date": "2023-07-01",
                     "value": 1000
                 },
                 {
-                    "date": "2021-02-01",
-                    "value": 2000
+                    "date": "2023-08-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-03-01",
-                    "value": 3000
+                    "date": "2023-09-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-04-01",
-                    "value": 4000
+                    "date": "2023-10-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-05-01",
-                    "value": 5000
+                    "date": "2023-11-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-06-01",
-                    "value": 6000
+                    "date": "2023-12-01",
+                    "value": 1000
+
                 },
                 {
-                    "date": "2021-07-01",
-                    "value": 7000
+                    "date":"2024-01-01",
+                    "value": 1000
                 },
                 {
-                    "date": "2021-08-01",
-                    "value": 8000
-                },
-                {
-                    "date": "2021-09-01",
-                    "value": 9000
-                },
-                {
-                    "date": "2021-10-01",
-                    "value": 10000
-                },
-                {
-                    "date": "2021-11-01",
-                    "value": 11000
-                },
-                {
-                    "date": "2021-12-01",
-                    "value": 12000
+                    "date":"2024-02-01",
+                    "value": 1000
                 }
             ]
         },
         {
             "name": "Website",
             "category": 4,
-            "entries": [
+            "amounts": [
                 {
-                    "date": "2021-01-01",
+                    "date": "2023-07-01",
                     "value": 1000
                 },
                 {
-                    "date": "2021-02-01",
-                    "value": 2000
-                },
-                {
-                    "date": "2021-03-01",
-                    "value": 3000
-                },
-                {
-                    "date": "2021-04-01",
-                    "value": 4000
-                },
-                {
-                    "date": "2021-05-01",
-                    "value": 5000
-                },
-                {
-                    "date": "2021-06-01",
-                    "value": 6000
-                },
-                {
-                    "date": "2021-07-01",
-                    "value": 7000
-                },
-                {
-                    "date": "2021-08-01",
-                    "value": 8000
-                },
-                {
-                    "date": "2021-09-01",
-                    "value": 9000
-                },
-                {
-                    "date": "2021-10-01",
-                    "value": 10000
-                },
-                {
-                    "date": "2021-11-01",
-                    "value": 11000
-                },
-                {
-                    "date": "2021-12-01",
-                    "value": 12000
-                }
-            ]
-        }
-    ],
-    "Assets": [
-        {
-            "name": "Stock Portfolio",
-            "category": 2,
-            "values": [
-                {
-                    "date": "2021-01-01",
+                    "date": "2023-08-01",
                     "value": 1000
                 },
                 {
-                    "date": "2021-02-01",
-                    "value": 2000
-                },
-                {
-                    "date": "2021-03-01",
-                    "value": 3000
-                },
-                {
-                    "date": "2021-04-01",
-                    "value": 4000
-                },
-                {
-                    "date": "2021-05-01",
-                    "value": 5000
-                },
-                {
-                    "date": "2021-06-01",
-                    "value": 6000
-                },
-                {
-                    "date": "2021-07-01",
-                    "value": 7000
-                },
-                {
-                    "date": "2021-08-01",
-                    "value": 8000
-                },
-                {
-                    "date": "2021-09-01",
-                    "value": 9000
-                },
-                {
-                    "date": "2021-10-01",
-                    "value": 10000
-                },
-                {
-                    "date": "2021-11-01",
-                    "value": 11000
-                },
-                {
-                    "date": "2021-12-01",
-                    "value": 12000
-                }
-            ]
-        }
-    ],
-    "bankAccounts": [
-        {
-            "id": 1,
-            "name": "Example Bank Account",
-            "type": "Checking",
-            "balance": [
-                {
-                    "date": "2021-01-01",
+                    "date": "2023-09-01",
                     "value": 1000
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Example Bank Account",
-            "type": "Savings",
-            "balance": [
+                },
                 {
-                    "date": "2021-01-01",
+                    "date": "2023-11-01",
                     "value": 1000
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "name": "Example Bank Account",
-            "type": "Investment",
-            "balance": [
+                },
                 {
-                    "date": "2021-01-01",
+                    "date": "2023-12-01",
                     "value": 1000
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "name": "Example Bank Account",
-            "type": "Retirement",
-            "balance": [
+
+                },
                 {
-                    "date": "2021-01-01",
-                    "value": 1000
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "name": "Example Bank Account",
-            "type": "Other",
-            "balance": [
-                {
-                    "date": "2021-01-01",
+                    "date":"2024-01-01",
                     "value": 1000
                 }
             ]
         }
     ],
+
     "Expenses": [
         {
             "id": 1,

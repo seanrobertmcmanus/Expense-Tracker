@@ -7,7 +7,6 @@ function navigation() {
 
   // Set the currentPage cookie
   function setNavCookie(currentPage) {
-    console.log("Setting current page to: ", currentPage);
     setCookie("currentPage", currentPage, { maxAge: 300 }); // 5 minutes
   }
 
